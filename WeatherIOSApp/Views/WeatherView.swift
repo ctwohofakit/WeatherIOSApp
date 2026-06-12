@@ -55,6 +55,8 @@ struct WeatherView: View {
                         
                         if let date = convertedDate {
                             Text(date, style: .date)
+                        }else {
+                            Text("no date")
                         }
                         //format:  .dateTime.weekday(.wide).hour().minute())
                         Image(systemName: "cloud.sun.fill")
