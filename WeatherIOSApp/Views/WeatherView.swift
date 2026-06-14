@@ -69,7 +69,7 @@ struct WeatherView: View {
                         if greeting == "Good Morning" {
                                 Image(systemName: "cloud.sun.fill")
                                     .resizable()
-                                    .frame(maxWidth: 230, maxHeight: 200, alignment: .center)
+                                    .frame(maxWidth: 300, maxHeight: 200, alignment: .center)
                                     .symbolRenderingMode(.palette)
                                     .foregroundStyle(.gray.opacity(0.6), .yellow)
                                     .padding()
