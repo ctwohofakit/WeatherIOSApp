@@ -38,9 +38,9 @@ class WeatherViewModel: ObservableObject {
         do{
             let result = try await API.fetchCurrentWeather(forCity: trimmedText)
             self.cityName = result.cityName
-            self.temperatureText = "Temp: \(result.weather.temperature)"
-            self.windText = "Wind: \(result.weather.windspeed)"
-            self.timeText = "Time: \(result.weather.time)"
+            self.temperatureText = "\(result.weather.temperature)"
+            self.windText = "\(result.weather.windspeed)"
+            self.timeText = "\(result.weather.time)"
             self.isLoading = false
             
             

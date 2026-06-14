@@ -6,7 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		47099FCB2FDF37180008C518 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 47099FCA2FDF370A0008C518 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		47099FCA2FDF370A0008C518 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6B33CFF82FD483E40025E75E /* WeatherIOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherIOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -34,6 +39,7 @@
 			children = (
 				6B33CFFA2FD483E40025E75E /* WeatherIOSApp */,
 				6B33CFF92FD483E40025E75E /* Products */,
+				47099FCA2FDF370A0008C518 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47099FCB2FDF37180008C518 /* README.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
